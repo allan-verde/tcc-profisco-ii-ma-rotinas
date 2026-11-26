@@ -5,8 +5,10 @@ Auditoria do cap. 5 (05/11/2026): recalcula, a partir da extração independente
 Brain\\Gestão\\Auditoria do cap. 5 — inventário de afirmações (05-11-2026).md.
 
 Cada afirmação sai OK (com o informe e a página que a sustentam) ou DIVERGE (com o número que a
-extração dá). Nada aqui lê o .docx: as metas do PME vêm do Cuadro 1, já conferido pelo auditor em
-04/11 (lista META_PME do inserir_pacote15.py), e o quadro da monografia é comparado à parte.
+extração dá). As metas do PME vêm do Cuadro 1, já conferido pelo auditor em 04/11 (lista META_PME).
+Só o bloco P4 lê o .docx da monografia: compara, célula a célula, os quadros dos 24 produtos (o da
+seção 5.1 e o do Apêndice A) com a extração, nas colunas P, P(a) e A. O .docx não é fonte de nenhum
+número: é o objeto conferido.
 
 Uso: python checar_afirmacoes.py   (grava resultado_auditoria.md ao lado)
 """

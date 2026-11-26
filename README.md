@@ -33,10 +33,9 @@ aqui: baixe-os do repositório do Banco (operação BR-L1500). Os insumos da se�
 - **Caminhos fixos:** as rotinas foram escritas na pasta de trabalho do autor. Antes de rodar, ajuste as
   constantes de caminho no início de cada arquivo (`PASTA_FONTES` em `extrair_pmr.py`; `PMR`
   em `matriz_a_tres_camadas.py`; `FONTES` nas rotinas da 6.3 e `SAIDA` em `baixar_serie_icms_siconfi.py`, que devem apontar para a pasta `insumos`).
-- **Parte que lê a monografia:** só o bloco P4 de `checar_afirmacoes.py`, que compara os quadros da monografia
-  com a extração. É conferência do texto, não fonte de dado. Sem o `.docx`, esse bloco não roda; o resto
-  independe dele. (A primeira linha da documentação de
-  `checar_afirmacoes.py` diz que nada ali lê o `.docx`; vale para a extração, não para o bloco P4.)
+- **Parte que lê a monografia:** só o bloco P4 de `checar_afirmacoes.py`, que compara, célula a célula, os
+  quadros dos 24 produtos (o da seção 5.1 e o do Apêndice A) com a extração, nas colunas P, P(a) e A. É
+  conferência do texto, não fonte de dado. Sem o `.docx`, esse bloco não roda; o resto independe dele.
 
 ## Diferença em relação à pasta de trabalho
 
